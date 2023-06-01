@@ -1,0 +1,17 @@
+View and materialized view
+--------------------------
+
+View:
+    - view is a logical virtual (read-only) table created by "select query" but result is not stored in the disk
+    - performance of the view depends upon the query
+
+
+Materialized view:
+    - it is also logical view of our data driven by "select query". But "result of the query" is stored in the disk
+
+Now, we will discuss difference between view and materialized view
+    - 1st difference is that in views result is not stored in the disk where as in materialized views result
+        is stored in the disk
+    - 2nd difference is that, in case of views we always get latest data but in materialized view we need to
+        refresh the view
+    - 3rd difference is that performance of the view is less than the materialized view
