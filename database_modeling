@@ -1,0 +1,87 @@
+- Data and databases
+- Normalization of data
+- data types
+- Relations
+- How to make diagrams
+
+- data is everywhere
+- not all data is important
+
+- album
+    - album title
+    - temperature on release day
+    - favorite pet
+    - year of release
+    - number of albums sold
+    - producer
+    - number of songs
+
+- data information and knowledge wisdom
+    - wisdom
+    - knowledge
+    - information
+    - data
+
+- databases are everywhere
+- data example
+
+- normalization of data (rules to store the data into the database)
+- purpose of normalization
+    - clean up data
+    - ensure a proper structure
+    - data consistency
+    - enhances search of data
+    - increase quality of data (reliable)
+
+
+- 1N (FIRST NORMAL FORM)
+    - only "one of each" in each column
+    - unique identification of each row
+
+- 2N (SECOND NORMAL FORM)
+    - remove redundancy (repetition) of data in rows
+    - many to one
+
+        students (many)                 classes (one)
+         - id                            - id
+         - class_id                      - class
+         - name
+         - address
+         - zip
+         - city
+
+    - one student can have many students
+    - one student can only be in one class
+
+- 3N (THIRD NORMAL FORM)
+    - only columns with direct dependency of the primary keys shall be in the entity
+    - primary key (unique id)
+
+        students (many)                 classes (one)           zip_city
+         - id                            - id                    - zip
+         - class_id                      - class                 - city
+         - name
+         - address
+         - zip
+
+- Datatypes
+
+    Datatype            Meaning                             Example
+    - INT               Integer (whole numbers)             42
+    - DECIMAL           Floating point number               42.1
+    - DATETIME          Date and time in one                12.24.2013 18:59:59
+    - VARCHAR           String (text)                       Neils
+
+
+Relations
+    - one to many
+    - many to many
+    - many to one
+
+- from database model to database design
+    - create foreign keys
+    - enter datatypes
+    - many to many relations resolved into intermediate table
+
+
+    
