@@ -82,6 +82,3 @@ Relations
     - create foreign keys
     - enter datatypes
     - many to many relations resolved into intermediate table
-
-
-    
